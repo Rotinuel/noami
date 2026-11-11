@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+:root { color-scheme: dark; --gold: #d9ad55; --cream: #f8f0df; }
+* { box-sizing: border-box; }
+html { min-height: 100%; background: #090909; }
+body { margin: 0; color: var(--cream); font-family: 'DM Sans', Arial, sans-serif; }
+a { color: inherit; }
+.page-shell { min-height: 100vh; position: relative; overflow: hidden; padding: 54px 20px 64px; background: radial-gradient(ellipse at 50% 10%, #302414 0%, #12100c 34%, #080808 75%); }
+.glow { position: absolute; width: 320px; height: 320px; border-radius: 50%; filter: blur(100px); opacity: .18; pointer-events: none; }
+.glow-one { background: #c18b32; top: 10%; left: -180px; }
+.glow-two { background: #96702f; right: -200px; bottom: 8%; }
+.content { width: min(100%, 560px); margin: 0 auto; position: relative; text-align: center; }
+.brand-mark { width: 54px; height: 54px; display: grid; place-items: center; margin: 0 auto 17px; border: 1px solid var(--gold); border-radius: 50%; color: var(--gold); font: 600 32px 'Playfair Display', Georgia, serif; }
+.eyebrow { color: var(--gold); font-size: 10px; letter-spacing: .28em; margin: 0 0 13px; }
+h1 { font: 600 clamp(30px, 7vw, 48px)/1.05 'Playfair Display', Georgia, serif; letter-spacing: .055em; margin: 0; color: #e4bd6c; }
+h1 span { display: block; color: #fff7e8; font: 500 13px/1.8 'DM Sans', Arial, sans-serif; letter-spacing: .27em; margin-top: 9px; }
+.tagline { font: italic 23px 'Playfair Display', Georgia, serif; color: #e6d2ad; margin: 17px 0 27px; }
+.flyer-frame { padding: 7px; border: 1px solid rgba(218,177,95,.7); border-radius: 15px; background: rgba(255,255,255,.035); box-shadow: 0 20px 70px #0009; }
+.flyer-frame img { display: block; width: 100%; height: auto; border-radius: 9px; }
+.intro { color: #d5c8b1; font-size: 14px; line-height: 1.7; max-width: 430px; margin: 24px auto; }
+.whatsapp-button { display: flex; align-items: center; justify-content: center; gap: 13px; width: min(100%, 420px); margin: 0 auto; padding: 15px 18px; border-radius: 999px; background: linear-gradient(135deg, #f4d58f, #c18c35); color: #17120a; text-decoration: none; box-shadow: 0 8px 28px #bd8b3633; transition: transform .2s ease, filter .2s ease; }
+.whatsapp-button:hover { transform: translateY(-2px); filter: brightness(1.06); }
+.whatsapp-button svg { width: 34px; height: 34px; fill: #17120a; flex: 0 0 auto; }
+.whatsapp-button span:not(.arrow) { display: flex; flex-direction: column; align-items: flex-start; }
+.whatsapp-button small { font-size: 9px; font-weight: 700; letter-spacing: .12em; }
+.whatsapp-button strong { font-size: 20px; letter-spacing: .04em; }
+.whatsapp-button .arrow { font-size: 25px; margin-left: auto; }
+.footer-line { color: #d9b76f; letter-spacing: .28em; font: 12px 'Playfair Display', Georgia, serif; margin: 28px 0 0; }
+@media (max-width: 420px) { .page-shell { padding: 36px 14px 46px; } .tagline { font-size: 20px; } .whatsapp-button { gap: 9px; padding: 13px; } .whatsapp-button strong { font-size: 17px; } }
