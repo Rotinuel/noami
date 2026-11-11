@@ -5,21 +5,21 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || (deploymentHost ? `https://$
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
-  title: 'Naomi House of Shades | See the World in Style',
-  description: 'Discover stylish sunglasses and eyeglasses at Naomi House of Shades. Chat with us on WhatsApp to make an enquiry or place an order.',
+  title: 'Nesty luxe House of Shades | See the World in Style',
+  description: 'Discover stylish sunglasses and eyeglasses at Nesty luxe House of Shades. Chat with us on WhatsApp to make an enquiry or place an order.',
   openGraph: {
-    title: 'Naomi House of Shades | See the World in Style',
-    description: 'Explore sunglasses and eyeglasses. Chat with Naomi House of Shades on WhatsApp.',
+    title: 'Nesty luxe House of Shades | See the World in Style',
+    description: 'Explore sunglasses and eyeglasses. Chat with Nesty luxe House of Shades on WhatsApp.',
     url: siteUrl,
-    siteName: 'Naomi House of Shades',
-    images: [{ url: '/naomi-house-of-shades.png', width: 1024, height: 1536, alt: 'Naomi House of Shades luxury sunglasses and eyewear flyer' }],
+    siteName: 'Nesty luxe House of Shades',
+    images: [{ url: '/naomi-house-of-shades.jpeg', width: 1024, height: 1536, alt: 'Nesty luxe House of Shades luxury sunglasses and eyewear flyer' }],
     type: 'website'
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Naomi House of Shades | See the World in Style',
+    title: 'Nesty luxe House of Shades | See the World in Style',
     description: 'Explore stylish sunglasses and eyeglasses.',
-    images: ['/naomi-house-of-shades.png']
+    images: ['/nesty luxe-house-of-shades.png']
   }
 };
 
