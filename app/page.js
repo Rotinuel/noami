@@ -11,7 +11,7 @@ export default function Home() {
         <h1>NESTY LUXE <span>HOUSE OF SHADES</span></h1>
         <p className="tagline">See the World in Style.</p>
         <div className="flyer-frame">
-          <img src="/nesty luxe-house-of-shades.jpeg" alt="Nesty luxe House of Shades — sunglasses and eyeglasses" />
+          <img src="/naomi-house-of-shades.jpeg" alt="Nesty luxe House of Shades — sunglasses and eyeglasses" />
         </div>
         <p className="intro">Find the frames that express your style. Explore our collection of sunglasses and eyeglasses.</p>
         <a className="whatsapp-button" href={whatsappLink} target="_blank" rel="noreferrer">
